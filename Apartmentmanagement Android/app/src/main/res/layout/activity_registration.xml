@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image2"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Registration">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textSize="20dp"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <EditText
+        android:id="@+id/fname"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:textColorHint="#ffff"
+        android:textColor="#ffff"
+        android:inputType="textPersonName"
+        android:hint="  enter your first name"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/layout"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <EditText
+        android:id="@+id/lname"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="  enter your last name"
+
+        android:layout_marginTop="10dp"
+        android:background="@drawable/layout"
+        android:textColorHint="#ffff"
+        android:textColor="#ffff"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="85dp" />
+
+    <EditText
+        android:id="@+id/place"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="  enter your place"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#ffff"
+        android:textColor="#ffff"
+        android:gravity="center"
+        android:background="@drawable/layout"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="396dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:textColorHint="#ffff"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffff"
+        android:gravity="center"
+        android:inputType="textEmailAddress"
+        android:hint="  enter your email"
+        android:background="@drawable/layout"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="460dp" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#ffff"
+        android:textColor="#ffff"
+        android:gravity="center"
+        android:inputType="number"
+        android:hint="  enter your phone"
+        android:background="@drawable/layout"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="522dp" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:textColorHint="#ffff"
+        android:textColor="#ffff"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:hint="  enter your Address"
+        android:background="@drawable/layout"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="567dp" />
+
+    <EditText
+        android:id="@+id/uname"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:textColorHint="#ffff"
+        android:gravity="center"
+        android:textColor="#ffff"
+        android:layout_marginTop="10dp"
+        android:inputType="textPersonName"
+        android:hint="  enter your username"
+        android:background="@drawable/layout"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="539dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:gravity="center"
+        android:textColorHint="#ffff"
+        android:textColor="#ffff"
+        android:background="@drawable/layout"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:hint="  enter your password"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="516dp" />
+
+    <Button
+        android:id="@+id/registartion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="608dp" />
+
+
+</LinearLayout>

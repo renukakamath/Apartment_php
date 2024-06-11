@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/wamp64/www/Apartment management/Apartmentmanagement Android/app/src/main/res/drawable/layout.xml" value="0.1485" />
+        <entry key="..\:/wamp64/www/Apartment management/Apartmentmanagement Android/app/src/main/res/drawable/layout1.xml" value="0.1485" />
+        <entry key="..\:/wamp64/www/Apartment management/Apartmentmanagement Android/app/src/main/res/layout/activity_addtocart.xml" value="0.13632246376811594" />
+        <entry key="..\:/wamp64/www/Apartment management/Apartmentmanagement Android/app/src/main/res/layout/activity_ipsettings.xml" value="0.13632246376811594" />
+        <entry key="..\:/wamp64/www/Apartment management/Apartmentmanagement Android/app/src/main/res/layout/activity_login.xml" value="0.13632246376811594" />
+        <entry key="..\:/wamp64/www/Apartment management/Apartmentmanagement Android/app/src/main/res/layout/activity_main.xml" value="0.13632246376811594" />
+        <entry key="..\:/wamp64/www/Apartment management/Apartmentmanagement Android/app/src/main/res/layout/activity_makeappointment.xml" value="0.1431159420289855" />
+        <entry key="..\:/wamp64/www/Apartment management/Apartmentmanagement Android/app/src/main/res/layout/activity_makepayment.xml" value="0.1431159420289855" />
+        <entry key="..\:/wamp64/www/Apartment management/Apartmentmanagement Android/app/src/main/res/layout/activity_registration.xml" value="0.13632246376811594" />
+        <entry key="..\:/wamp64/www/Apartment management/Apartmentmanagement Android/app/src/main/res/layout/activity_sendcomplaint.xml" value="0.1431159420289855" />
+        <entry key="..\:/wamp64/www/Apartment management/Apartmentmanagement Android/app/src/main/res/layout/activity_userhome.xml" value="0.13632246376811594" />
+        <entry key="..\:/wamp64/www/Apartment management/Apartmentmanagement Android/app/src/main/res/layout/activity_view_precaution.xml" value="0.1431159420289855" />
+        <entry key="..\:/wamp64/www/Apartment management/Apartmentmanagement Android/app/src/main/res/layout/activity_viewappointment.xml" value="0.1431159420289855" />
+        <entry key="..\:/wamp64/www/Apartment management/Apartmentmanagement Android/app/src/main/res/layout/activity_viewcart.xml" value="0.13632246376811594" />
+        <entry key="..\:/wamp64/www/Apartment management/Apartmentmanagement Android/app/src/main/res/layout/activity_viewcategory.xml" value="0.14266304347826086" />
+        <entry key="..\:/wamp64/www/Apartment management/Apartmentmanagement Android/app/src/main/res/layout/activity_viewhospital.xml" value="0.13632246376811594" />
+        <entry key="..\:/wamp64/www/Apartment management/Apartmentmanagement Android/app/src/main/res/layout/activity_viewproduct.xml" value="0.13632246376811594" />
+        <entry key="..\:/wamp64/www/Apartment management/Apartmentmanagement Android/app/src/main/res/layout/activity_viewrequest.xml" value="0.1431159420289855" />
+        <entry key="..\:/wamp64/www/Apartment management/Apartmentmanagement Android/app/src/main/res/layout/activity_viewservice.xml" value="0.1431159420289855" />
+        <entry key="..\:/wamp64/www/Apartment management/Apartmentmanagement Android/app/src/main/res/layout/cust_images.xml" value="0.1431159420289855" />
+        <entry key="..\:/wamp64/www/Apartment management/Apartmentmanagement Android/app/src/main/res/layout/custtext.xml" value="0.1431159420289855" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

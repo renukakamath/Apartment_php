@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/image2"
+    android:orientation="vertical"
+    tools:context=".Userhome">
+
+    <Button
+        android:id="@+id/Product"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="View Product"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/layout1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="234dp" />
+
+    <Button
+        android:id="@+id/cart"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="View cart"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/layout1"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="306dp" />
+
+    <Button
+        android:id="@+id/Hospital"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="View Hospital"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/layout1"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="403dp" />
+
+    <Button
+        android:id="@+id/Appointment"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="View Appointment"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/layout1"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="474dp" />
+
+    <Button
+        android:id="@+id/Service"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="View Service"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/layout1"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="339dp" />
+
+    <Button
+        android:id="@+id/request"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="View request"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/layout1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="532dp" />
+
+    <Button
+        android:id="@+id/Complaints"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Send Complaints"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/layout1"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="577dp" />
+    <Button
+        android:id="@+id/Logout"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/layout1"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="577dp" />
+</LinearLayout>

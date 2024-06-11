@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image2"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Makeappointment">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Make Appointment"
+        android:textColor="#ffff"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="187dp" />
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="350dp"
+        android:layout_height="57dp"
+        android:background="@drawable/layout"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="select date"
+        android:layout_marginTop="20dp"
+        android:focusableInTouchMode="false"
+        android:textColorHint="#fff"
+        android:textColor="#ffff"
+        tools:layout_editor_absoluteY="401dp" />
+
+    <EditText
+        android:id="@+id/time"
+        android:layout_width="350dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/layout"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="time"
+        android:hint="select Time"
+        android:textColorHint="#fff"
+        android:textColor="#ffff"
+     android:focusableInTouchMode="false"
+        tools:layout_editor_absoluteY="401dp" />
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+
+        android:background="@drawable/layout"
+        android:ems="10"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="description"
+        android:inputType="textPersonName"
+        android:textColor="#ffff"
+        android:textColorHint="#ffff" />
+
+    <Button
+        android:id="@+id/app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+</LinearLayout>
